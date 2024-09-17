@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: black;
+        }
+
+        header {
+            background-color: gray;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center; 
+        }
+
+        nav {
+            background-color: lightgray;
+            padding: 10px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.400)
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: purple;
+            font-weight: bolder;
+            margin-right: 10px;
+        }
+        
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: gray;
+            padding: 10px;
+            margin: 10px;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 0px;
+        }
+
+        section {
+            background-color: lightgray;
+            border-radius: 15px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.400);
+        }
+
+        section#assuntos {
+            margin: 5px;
+            padding: 5px;
+        }
+
+        section#noticias {
+            margin: 5px;
+            padding: 5px;
+        }
+
+        article {
+            padding: 5px;
+        }
+
+        aside {
+            background-color: darkgray;
+            color: black;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: white;
+            padding: 3px;
+            margin: 3px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+     <header>
+        <h1>Site Teste</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+     </header>
+     <main>
+        <section id="assuntos">
+            <article id="Flamengo">
+                <h2>Notícias sobre o Flamengo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti distinctio temporibus numquam minus alias nostrum explicabo, debitis deserunt aut tempora sit exercitationem! Possimus dolores ex quisquam tempore natus? Beatae, libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate hic vitae deleniti, numquam obcaecati, culpa ut expedita ullam beatae dolore voluptate! Quo cum molestiae ratione deleniti at. Inventore, earum nostrum.</p>
+                <aside>
+                    <p>Artigo escrito por João Paulo</p>
+                </aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <article id="Brasil">
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi vel voluptatibus quam non, adipisci consequatur repellendus, nostrum, nemo officiis fugiat maxime minus fuga? Pariatur libero ipsum assumenda quos, aspernatur dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quam delectus numquam? Sint voluptatibus animi quidem quaerat cumque. Iusto, vel modi. Fugit exercitationem architecto deleniti? Inventore atque error consequatur magnam.</p>
+                <aside>
+                    <p>Artigo escrito por Pedro Faini</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+     </main>
+     <footer>
+        <p>Desenvolvido pelo PedroFaini</p>
+     </footer>
+</body>
+</html>
